@@ -25,6 +25,7 @@ export const Container = styled.div<ContainerProps>`
     img {
       pointer-events: none;
       user-select: none;
+      max-width: 100%;
     }
   }
 
@@ -37,8 +38,9 @@ export const Container = styled.div<ContainerProps>`
 
     p {
       color: #3d3d4d;
-
       margin-top: 16px;
+      min-height: 4.375rem;
+
     }
 
     .price {
